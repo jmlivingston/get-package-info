@@ -1,0 +1,23 @@
+{
+  "name": "get-package-info",
+  "version": "1.0.0",
+  "description": "Simple script for getting OSS package information (name, version, license, author, etc.)",
+  "main": "index.js",
+  "author": "jmlivingston@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "lodash": "^4.17.11",
+    "prettier": "^1.14.2"
+  },
+  "prettier": {
+    "filepath": "src",
+    "jsxBracketSameLine": true,
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true
+  }
+}
